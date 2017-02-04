@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="100" >
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10dip"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:id="@+id/parent_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/firstname_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:minWidth="100dip"
+                android:padding="5dp"
+                android:text="First Name"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/firstname_edit_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/firstname_label"
+                android:background="@drawable/paymenttextbox"
+                android:ellipsize="end"
+                android:ems="4"
+                android:imeOptions="actionNext"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="@color/input_text_color"
+                android:textColorHint="@color/gray_color"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/lastname_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/firstname_edit_txt"
+                android:layout_margin="5dp"
+                android:minWidth="100dip"
+                android:padding="5dp"
+                android:text="Last Name"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/lastname_edit_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/firstname_edit_txt"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="5dp"
+                android:layout_toRightOf="@+id/lastname_label"
+                android:background="@drawable/paymenttextbox"
+                android:ellipsize="end"
+                android:ems="4"
+                android:imeOptions="actionNext"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/user_name_label"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lastname_edit_txt"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="User Name"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/user_name_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lastname_edit_txt"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/user_name_label"
+                android:background="@drawable/paymenttextbox"
+                android:padding="1dp"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/user_pwd_label"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user_name_txt"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text=" Password"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/user_pwd_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user_name_txt"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/user_pwd_label"
+                android:background="@drawable/paymenttextbox"
+                android:padding="1dp"
+                android:password="true"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/user_confirmpwd_label"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user_pwd_txt"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="Confirm Pwd"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/user_confirmpwd_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user_pwd_txt"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/user_confirmpwd_label"
+                android:background="@drawable/paymenttextbox"
+                android:padding="1dp"
+                android:password="true"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/number_label"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_confirmpwd_txt"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="Number"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/number_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_confirmpwd_txt"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/number_label"
+                android:background="@drawable/paymenttextbox"
+                android:inputType="phone"
+                android:padding="1dp"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/gender_label"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/number_txt"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="Gender"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/genderspinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/number_txt"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/gender_label"
+                android:background="@drawable/defaultspinnerselector"
+                android:padding="1dp"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/addrone_label"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/genderspinner"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="Addr Line1"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/addrone_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/genderspinner"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/addrone_label"
+                android:background="@drawable/paymenttextbox"
+                android:padding="1dp"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/addrtwo_label"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/addrone_txt"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="Addr Line2"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/addrtwo_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/addrone_txt"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/addrtwo_label"
+                android:background="@drawable/paymenttextbox"
+                android:padding="1dp"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/city_label"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/addrtwo_txt"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="City"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/city_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/addrtwo_txt"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/city_label"
+                android:background="@drawable/paymenttextbox"
+                android:ellipsize="end"
+                android:ems="4"
+                android:padding="1dp"
+                android:singleLine="true"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/state_label"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/city_txt"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="State"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/state_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/city_txt"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/state_label"
+                android:background="@drawable/paymenttextbox"
+                android:ellipsize="end"
+                android:ems="4"
+                android:padding="1dp"
+                android:singleLine="true"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/zip_label"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/state_txt"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="Zip"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/zip_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/state_txt"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/zip_label"
+                android:background="@drawable/paymenttextbox"
+                android:ellipsize="end"
+                android:ems="4"
+                android:inputType="number"
+                android:padding="1dp"
+                android:singleLine="true"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/dob_label"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/zip_txt"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="Date Of Birth"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/dob_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/zip_txt"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@id/dob_label"
+                android:background="@drawable/dateofbirth_textbox"
+                android:drawableRight="@drawable/calender_icon"
+                android:editable="false"
+                android:ellipsize="end"
+                android:ems="4"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:longClickable="false"
+                android:singleLine="true"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/submit_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dob_txt"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/submit_btn" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/controls"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible" >
+
+        <include layout="@layout/bottom_controls" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AddressBookActivity!</string>
+    <string name="app_name">AddressBookExample</string>
+    <string name="login_remember_invalidusername_key">Invalid Username</string>
+    <string name="login_remember_invalidusername_msg">Username can\'t be blank</string>
+    <string name="login_remember_invalidpassword_key">Invalid Password</string>
+    <string name="login_remember_invalidpassword_msg">Password can\'t be blank</string>
+    <string name="alert_button_ok">OK</string>
+    <string name="home">Home</string>
+    <string name="hometitlebar">Picture of Title Bar in Home Menu</string>
+    <string name="myprofile_txt">My Profile</string>
+    <string name="activitylog">Activity Log</string>
+    <string name="search">Search</string>
+    <string name="newsfeeds">News Feeds</string>
+    <string name="request">Request!</string>
+    <string name="upload">Upload Photo</string>
+    <string name="post">Wall Post!</string>
+    <string name="delete">Delete Post</string>
+
+    <!-- Face Book -->
+    <string name="facebook_url_albums">https://graph.facebook.com/albums</string>
+    <string name="facebook_url_photos">https://graph.facebook.com/[ALBUMID]/photos</string>
+    <string name="selectalbum">Select Album</string>
+    <string name="download">Download Albums</string>
+    <string name="photocard_thankyou">Thank you</string>
+    <string name="photocard_birthday">Birthday</string>
+    <string name="photocard_celeberate">Celebrate</string>
+    <string name="photocard_blank">Blank</string>
+    <string name="photocard_holiday">Holiday</string>
+    <string name="photocard_greeting">Greeting</string>
+    <string name="title">Title</string>
+    <string name="fb_connect_connection_error">The service is temporarily unavailable. Please try again.</string>
+    <string name="service_unavailable_title">Service Unavailable</string>
+    <string name="fbconnect_facebook_first_time_message">We will not post any of your Walgreens personal or private info to Facebook. We will only access photos and photo data on your Facebook account.</string>
+
+    <!-- Instagram Values -->
+    <string name="alert_InternetConnection_title">Connection Failed</string>
+    <string name="alert_InternetConnection">We were unable to connect to the Internet due to a weak or unavailable signal. Please try again later.</string>
+    <string name="progress_default_title">Loading</string>
+    <string name="progress_rx_msg">Please wait...</string>
+    <string name="fb_connect_photo_upload_complete">Photo Upload Complete</string>
+    <string name="quick_print_max_upload_complete_Mesg">Your photos have successfully been uploaded. Would you like to proceed to checkout?</string>
+    <string name="quick_print_Confirm_Mesg">Your photos have successfully been uploaded. Would you like to upload more photos?</string>
+    <string name="quick_print_cancel_upload_title">Cancel Upload</string>
+    <string name="quick_print_cancel_upload_mesg">Would you like to cancel the upload?</string>
+    <string name="fbconnect_limit_exceed_mesg">You have reached the maximum number of photos for this order.</string>
+    <string name="fb_connect_alert_InternetConnection_title">Connection failed</string>
+    <string name="fb_connect_alert_InternetConnection">We are unable to connect to the internet due to a weak or unavailable signal. Please try again later</string>
+    <string name="quick_print_confirm_upload_mesg">Your Photo(s) have been uploaded. Would you like to proceed with checkout?</string>
+    <string name="quick_print_UploadFailed_title">Service Unavailable</string>
+    <string name="quick_print_checkout_err_mesg">We\'re sorry, there was an error with your checkout. Please try again.</string>
+    <string name="quick_print_html_checkout_cancel_mesg">All photo prints will be lost if you go back. Would you like to continue?</string>
+
+</resources>

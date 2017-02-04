@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="title_color">#E7CF8C</color>
+    <color name="gray_color">#B5B6B5</color>
+    <color name="white_color">#FFFFFF</color>
+    <color name="content_header">#682808</color>
+    <color name="content_body">#764E2B</color>
+    <color name="input_text_color">#00070A</color>
+    <color name="input_red_color">#ff0000</color>
+    <color name="link_color">#3377CC</color>
+    <color name="red_color">#B60404</color>
+    <color name="blue_color">#415981</color>
+    <color name="black_color">#6d6345</color>
+    <color name="lightblue_color">#4465B3</color>
+    <color name="cornsilk_color">#8b8878</color>
+    <color name="heading_color">#940002</color>
+    <color name="list_text_color">#2D3A79</color>
+    <color name="ingredient_color">#535047</color>
+    <color name="orange">#F88017</color>
+    <color name="flatcolor">#f6fcff</color>
+    <color name="yellow">#ffbc00</color>
+
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="black">#000000</drawable>
+
+    <color name="dark_orange">#ea8f11</color>
+
+</resources>

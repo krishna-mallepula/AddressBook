@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/flatcolor" >
+
+    <ImageView
+        android:id="@+id/titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/hometitlebar"
+        android:paddingTop="2dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_title_bar_new" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/hometext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/titlebar"
+        android:layout_alignTop="@+id/titlebar"
+        android:layout_centerInParent="true"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:text="@string/home"
+        android:textColor="#FFFFFF"
+        android:textSize="15dip"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/parent_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titlebar"
+        android:layout_margin="10dip" >
+
+        <ImageView
+            android:id="@+id/btnShop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/newshop"
+            android:gravity="center"
+            android:onClick="onClick" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/controls"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible" >
+
+        <include layout="@layout/bottom_controls" />
+    </RelativeLayout>
+
+</RelativeLayout>

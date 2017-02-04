@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<photo-card-templates>
+	<category catName="1">
+		<template dispName="1" printName="thankyou1" 
+			printHeight="1200" printWidth="2400" 
+			thumbnailImagePath="pct7" displayTemplateImagePath="thank_you_horizontal" printTemplateImagePath="thank_you_h_print" >
+			<item type="image" id="1"  
+				hdpiHeight="346" hdpiWidth="390" hdpiX="1" hdpiY="0"
+				mdpiHeight="180" mdpiWidth="210" mdpiX="0" mdpiY="0"
+				ldpiHeight="50" ldpiWidth="125" ldpiX="0" ldpiY="0"
+				printHeight="1090" printWidth="1230" printX="0" printY="0"
+				defaultText="Tap to add\nphoto" defaultTextSize="12" defaultTextColor="white" fontBold="true"/>
+			<item type="text" id="2" defaultText="Tap to add Text"
+				hdpiX="400" hdpiY="160"
+				mdpiX="220" mdpiY="90"
+				ldpiX="155" ldpiY="107"
+				printX="1245" printY="575"
+				dispFontSize="14" hdpiMaxLength="20" mdpiMaxLength="20" ldpiMaxLength="20" printTextSize="50" printTextColor="GRAY"  fontColor="BLACK" fontBold="true"/>
+		</template>
+		<template dispName="2" printName="thankyou2" 
+			printHeight="2400" printWidth="1200" 
+			thumbnailImagePath="thank" displayTemplateImagePath="thank_you" printTemplateImagePath="thank_you_p_print" >
+			<item type="image" id="1"  
+				hdpiHeight="340" hdpiWidth="360" hdpiX="0" hdpiY="0"
+				mdpiHeight="185" mdpiWidth="195" mdpiX="0" mdpiY="0"
+				ldpiHeight="145" ldpiWidth="155" ldpiX="0" ldpiY="0"
+				printHeight="1075" printWidth="1150" printX="0" printY="0"
+				defaultText="Tap to add\nphoto" defaultTextSize="12" defaultTextColor="white" fontBold="true"/>
+			<item type="text" id="2" defaultText="Tap to add Text"
+				hdpiX="80" hdpiY="400"
+				mdpiX="20" mdpiY="230"
+				ldpiX="50" ldpiY="300"
+				printX="50" printY="1130"
+				dispFontSize="14"  hdpiMaxLength="20" mdpiMaxLength="20" ldpiMaxLength="20" printTextSize="50" printTextColor="GRAY"  fontColor="BLACK" fontBold="true"/>
+		</template>
+	</category>
+	
+	
+	<category catName="2">
+		<!-- <template dispName="3" printName="birthday1" dispHeight="240" dispWidth="480" printHeight="2400" printWidth="1200" displayTemplateImagePath="pct4" printTemplateImagePath="t4">
+			<item type="image" id="1" dispHeight="240" dispWidth="290" dispX="0" dispY="0" printHeight="1070" printWidth="1150" printX="0" printY="0"/>
+			<item type="text" id="2" defaultText="Tap to Add Text" dispX="20" dispY="310" printX="0" printY="0" dispFontSize="20" maxLength="24" fontColor="RED" fontBold="true"/>
+		</template> -->
+		
+		<template dispName="3" printName="birthday1" 
+			printHeight="1200" printWidth="2400" 
+			thumbnailImagePath="pct4" displayTemplateImagePath="birthday" printTemplateImagePath="birthday_p_print" >
+			<item type="image" id="1"  
+				hdpiHeight="379" hdpiWidth="406" hdpiX="42" hdpiY="0"
+				mdpiHeight="206" mdpiWidth="222" mdpiX="23" mdpiY="0"
+				ldpiHeight="48" ldpiWidth="142" ldpiX="14" ldpiY="0"
+				printHeight="1200" printWidth="1416" printX="136" printY="0"
+				defaultText="Tap to add\nphoto" defaultTextSize="12" defaultTextColor="white" fontBold="true"/>
+			<item type="text" id="2" defaultText="Tap to add Text"
+				hdpiX="470" hdpiY="315"
+				mdpiX="250" mdpiY="170"
+				ldpiX="50" ldpiY="300"
+				printX="1475" printY="955"
+				dispFontSize="14" hdpiMaxLength="20" mdpiMaxLength="20" ldpiMaxLength="20" printTextSize="50" printTextColor="GRAY"  fontColor="BLACK" fontBold="true"/>
+		</template>
+	</category>
+	
+	
+	<category catName="3">
+		<template dispName="4" printName="celebrate1" 
+			printHeight="2400" printWidth="1200" 
+			thumbnailImagePath="pct1" displayTemplateImagePath="celebrate" printTemplateImagePath="celebrate_p_print" >
+			<item type="image" id="1"  
+				hdpiHeight="460" hdpiWidth="380" hdpiX="0" hdpiY="0"
+				mdpiHeight="250" mdpiWidth="207" mdpiX="0" mdpiY="0"
+				ldpiHeight="195" ldpiWidth="160" ldpiX="0" ldpiY="0"
+				printHeight="1451" printWidth="1200" printX="0" printY="0"
+				defaultText="Tap to add\nphoto" defaultTextSize="12" defaultTextColor="white" fontBold="true"/>
+			<item type="text" id="2" defaultText="Tap to add Text"
+				hdpiX="120" hdpiY="660"
+				mdpiX="65" mdpiY="360"
+				ldpiX="50" ldpiY="300"
+				printX="215" printY="1590"
+				dispFontSize="14" hdpiMaxLength="20" mdpiMaxLength="20" ldpiMaxLength="20" printTextSize="50" printTextColor="GRAY"  fontColor="BLACK" fontBold="true"/>
+		</template>
+		<template dispName="5" printName="celebrate2" 
+			printHeight="1200" printWidth="2400" 
+			thumbnailImagePath="pct3" displayTemplateImagePath="celebrate_horizontal" printTemplateImagePath="celebrate_h_print" >
+			<item type="image" id="1"  
+				hdpiHeight="380" hdpiWidth="460" hdpiX="0" hdpiY="0"
+				mdpiHeight="206" mdpiWidth="250" mdpiX="0" mdpiY="0"
+				ldpiHeight="120" ldpiWidth="145" ldpiX="0" ldpiY="0"
+				printHeight="1200" printWidth="1450" printX="0" printY="0"
+				defaultText="Tap to add\nphoto" defaultTextSize="12" defaultTextColor="white" fontBold="true"/>
+			<item type="text" id="2" defaultText="Tap to add Text"
+				hdpiX="470" hdpiY="20"
+				mdpiX="256" mdpiY="20"
+				ldpiX="50" ldpiY="300"
+				printX="1580" printY="535"
+				dispFontSize="12" hdpiMaxLength="20" mdpiMaxLength="20" ldpiMaxLength="20" printTextSize="50" printTextColor="GRAY"  fontColor="BLACK" fontBold="true"/>
+		</template>
+	</category>
+	
+	<!--<category catName="4">
+		<template dispName="6" printName="blank_p" 
+			printHeight="1200" printWidth="2400" 
+			thumbnailImagePath="pct8" displayTemplateImagePath="blank" printTemplateImagePath="blank_p_print" >
+			<item type="image" id="1"  
+				hdpiHeight="380" hdpiWidth="266" hdpiX="494" hdpiY="0"
+				mdpiHeight="334" mdpiWidth="144" mdpiX="269" mdpiY="0"
+				ldpiHeight="120" ldpiWidth="85" ldpiX="155" ldpiY="0"
+				printHeight="1199" printWidth="1558" printX="1559" printY="0"
+				defaultText="Tap to add\nphoto" defaultTextSize="12" defaultTextColor="white" fontBold="true"/>
+				
+				<item type="image" id="2"  
+				hdpiHeight="142" hdpiWidth="142" hdpiX="21" hdpiY="92"
+				mdpiHeight="77" mdpiWidth="77" mdpiX="12" mdpiY="51"
+				ldpiHeight="45" ldpiWidth="45" ldpiX="6" ldpiY="28"
+				printHeight="450" printWidth="450" printX="68" printY="292"
+				defaultText="Tap to add\nphoto" defaultTextSize="6" defaultTextColor="white" fontBold="true"/>
+				<item type="image" id="3"  
+				hdpiHeight="142" hdpiWidth="142" hdpiX="179" hdpiY="92"
+				mdpiHeight="77" mdpiWidth="77" mdpiX="97" mdpiY="51"
+				ldpiHeight="45" ldpiWidth="45" ldpiX="55" ldpiY="28"
+				printHeight="450" printWidth="450" printX="565" printY="292"
+				defaultText="Tap to add\nphoto" defaultTextSize="6" defaultTextColor="white" fontBold="true"/>
+				<item type="image" id="4"  
+				hdpiHeight="142" hdpiWidth="142" hdpiX="336" hdpiY="92"
+				mdpiHeight="77" mdpiWidth="77" mdpiX="183" mdpiY="51"
+				ldpiHeight="45" ldpiWidth="45" ldpiX="106" ldpiY="28"
+				printHeight="450" printWidth="450" printX="1062" printY="292"
+				defaultText="Tap to add\nphoto" defaultTextSize="6" defaultTextColor="white" fontBold="true"/>
+			<item type="text" id="5" defaultText="Tap to add Text"
+				hdpiX="10" hdpiY="270"
+				mdpiX="15" mdpiY="150"
+				ldpiX="20" ldpiY="90"
+				printX="425" printY="835"
+				dispFontSize="14" hdpiMaxLength="20" mdpiMaxLength="20" ldpiMaxLength="20" printTextSize="50" printTextColor="BLACK" fontColor="BLACK" fontBold="true"/>
+		</template>
+	</category>
+	
+	--><category catName="4">
+		<template dispName="7" printName="holiday_p" 
+			printHeight="2400" printWidth="1200" 
+			thumbnailImagePath="pct5" displayTemplateImagePath="holiday" printTemplateImagePath="holiday_p_print" >
+			<item type="image" id="1"  
+				hdpiHeight="515" hdpiWidth="380" hdpiX="0" hdpiY="0"
+				mdpiHeight="278" mdpiWidth="207" mdpiX="0" mdpiY="0"
+				ldpiHeight="215" ldpiWidth="160" ldpiX="0" ldpiY="0"
+				printHeight="1575" printWidth="1200" printX="0" printY="0"
+				defaultText="Tap to add\nphoto" defaultTextSize="12" defaultTextColor="white" fontBold="true"/>
+			<item type="text" id="2" defaultText="Tap to add Text"
+				hdpiX="20" hdpiY="530"
+				mdpiX="20" mdpiY="293"
+				ldpiX="20" ldpiY="260"
+				printX="115" printY="1664"
+				dispFontSize="14" hdpiMaxLength="20" mdpiMaxLength="20" ldpiMaxLength="20" printTextSize="50" printTextColor="white"  fontColor="BLACK" fontBold="true"/>
+		</template>
+	</category>
+	
+	<!-- <category catName="6">
+		<template dispName="8" printName="greeting_p" 
+			printHeight="2400" printWidth="1200" 
+			thumbnailImagePath="pct9" displayTemplateImagePath="greetings" printTemplateImagePath="greeting_p_print" >
+			<item type="image" id="1"  
+				hdpiHeight="420" hdpiWidth="370" hdpiX="0" hdpiY="0"
+				mdpiHeight="230" mdpiWidth="202" mdpiX="0" mdpiY="0"
+				ldpiHeight="178" ldpiWidth="155" ldpiX="0" ldpiY="0"
+				printHeight="1324" printWidth="1110" printX="0" printY="0"
+				defaultText="Tap to add\nphoto" defaultTextSize="12" defaultTextColor="white" fontBold="true"/>
+			<item type="text" id="2" defaultText="Tap to add Text"
+				hdpiX="60" hdpiY="530"
+				mdpiX="40" mdpiY="260"
+				ldpiX="20" ldpiY="260"
+				printX="190" printY="1480"
+				dispFontSize="14" hdpiMaxLength="20" mdpiMaxLength="20" ldpiMaxLength="20" printTextSize="50" printTextColor="white" fontColor="white" fontBold="true"/>
+		</template>
+	</category> -->
+	<!--
+	<category catName="6">
+		<template dispName="8" printName="greeting_p" 
+			printHeight="2400" printWidth="1200" 
+			thumbnailImagePath="pct5" displayTemplateImagePath="holiday" printTemplateImagePath="greeting_p" >
+			<item type="image" id="1"  
+				hdpiHeight="515" hdpiWidth="380" hdpiX="0" hdpiY="0"
+				mdpiHeight="278" mdpiWidth="207" mdpiX="0" mdpiY="0"
+				ldpiHeight="215" ldpiWidth="160" ldpiX="0" ldpiY="0"
+				printHeight="1070" printWidth="1150" printX="0" printY="0"/>
+			<item type="text" id="2" defaultText="Tap to Add Text"
+				hdpiX="20" hdpiY="530"
+				mdpiX="20" mdpiY="293"
+				ldpiX="20" ldpiY="260"
+				printX="0" printY="0"
+				dispFontSize="16" hdpiMaxLength="300" mdpiMaxLength="160" ldpiMaxLength="120" fontColor="RED" fontBold="true"/>
+			<item type="imagetext" id="3" defaultImageText="Tap to Add Image"
+				hdpiX="100" hdpiY="200"
+				mdpiX="20" mdpiY="150"
+				ldpiX="50" ldpiY="300"
+				printX="0" printY="0"
+				dispFontSize="16" maxLength="24" fontColor="white" fontBold="true"/>
+		</template>
+	</category>
+	<category catName="6">
+		<template dispName="8" printName="greeting1" dispHeight="480" dispWidth="340" printHeight="2400" printWidth="1200" displayTemplateImagePath="pct5" printTemplateImagePath="t5">
+			<item type="image" id="1" dispHeight="360" dispWidth="340" dispX="0" dispY="0" printHeight="1070" printWidth="1150" printX="0" printY="0"/>
+			<item type="text" id="2" defaultText="Tap to Add Text" dispX="20" dispY="310" printX="0" printY="0" dispFontSize="20" maxLength="24" fontColor="RED" fontBold="true"/>
+		</template>
+	</category>-->
+	
+</photo-card-templates>
